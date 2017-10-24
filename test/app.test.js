@@ -62,6 +62,11 @@ describe('test treeRats API', () => {
                     });
         });
 
+// * TODO: Add the ability to submit a `query` as part of `GET` all.Choose 2 properties 
+//   that you allow to be queried,
+//   e.g. `?type=cat`.Query can be 1, both, or none of those properties
+
+
         it('gets all saved objects from database', () => {
             const rodents = [
                 {type:'mouse' , name:'experimentKing' },
